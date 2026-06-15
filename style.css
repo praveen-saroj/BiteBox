@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: "Playfair";
 }
 
 nav {
@@ -21,10 +22,6 @@ ul {
 nav a {
     color: white;
     text-decoration: none;
-}
-
-nav h2 {
-    color: white;
 }
 
 nav a:hover {
