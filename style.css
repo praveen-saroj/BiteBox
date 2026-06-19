@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: "Playfair";
+    padding: 0;
 }
 
 nav {
@@ -69,8 +70,8 @@ nav li:last-child a:hover{
 }
 
 .video-box video {
-    width: 100%;
-    border-radius: 15px;
+    width:100%;
+    border-radius:15px;
 }
 
 .video-text h2 {
@@ -79,7 +80,7 @@ nav li:last-child a:hover{
 }
 
 .video-text p {
-    font-size: 16px;
+    font-size:16px;
     color: rgba(219, 31, 21);
 }
 
@@ -103,7 +104,7 @@ nav li:last-child a:hover{
 .about p {
     max-width: auto;
     font-size: 18px;
-    color:rgb(6, 6, 74);
+    color:rgb(17, 17, 141);
     line-height: 1.5;
     text-align: center;
 }
@@ -137,3 +138,45 @@ nav li:last-child a:hover{
   gap: 20px;
   padding: 20px;
 }
+
+.icon-box img {
+    width:70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 3px;
+}
+
+.category-icons {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    padding: 10px;
+    background-color: rgb(208, 222, 234);
+}
+.icon-box {
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon-box P {
+    margin-top: 10PX;
+    font-size:16PX;
+}
+
+.icon-box img:hover {
+    border: 2px solid red;
+    transform: scale(1.1);
+}
+
+.icon-box p:hover {
+    color: red;
+    font-family: 'Times New Roman';
+    font-size:18px;
+}
+
+header {
+    position: sticky;
+    top:0;
+    }
