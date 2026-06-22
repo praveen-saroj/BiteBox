@@ -180,3 +180,97 @@ header {
     position: sticky;
     top:0;
     }
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.item img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+.cart {
+    width:100%;
+    padding: 40px 0;
+}
+
+table {
+    width:70%;
+    background: wheat;
+    position:sticky;
+    border-radius:10px;
+    border-collapse: collapse;
+}
+
+thead {
+    background: red;
+    color: white;
+}
+
+th,td {
+    padding:20px;
+    text-align: center;
+}
+
+tr {
+    border-bottom: 1px solid black;
+}
+
+.item h4 {
+    margin-bottom: 15px;
+}
+
+.qty-box {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.qty-box button {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.qty-box button:hover {
+    background: darkred;
+}
+
+.remove {
+    background:red;
+    color: white;
+    border:none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove:hover {
+    background: darkred;
+}
+
+.grand-total button {
+     background:red;
+    color: white;
+    border:none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.grand-total button:hover {
+    background: darkred;
+}
+
+.grand-total td {
+    font-size: 22px;
+    padding: 30px 30px;
+    font-weight: bold;
+}
