@@ -55,6 +55,7 @@ nav li:last-child a:hover{
      color: white;
      border-radius: 12px;
      cursor: pointer;
+     border: none;
 }
 
 .hero button:hover {
@@ -258,7 +259,7 @@ gap: 10px;
 }
 
 .grand-total button {
-     background:red;
+    background:red;
     color: white;
     border:none;
     padding: 8px 12px;
@@ -273,4 +274,65 @@ gap: 10px;
     font-size: 22px;
     padding: 30px 30px;
     font-weight: bold;
+}
+
+.auth-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+
+}
+
+.auth-box {
+    background-color:white;
+    padding: 40px;
+    border-radius:10px;
+    width: 320px;
+    text-align: center;
+}
+
+.auth-box h2 {
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.auth-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+
+.auth-box input:focus{
+    border-color:red;
+}
+
+.auth-box button {
+    width: 100%;
+    padding:10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius:10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.auth-box button:hover {
+    background: darkred;
+
+}
+
+.auth-box  a{
+    color: red;
+    text-decoration:none;
+}
+
+.auth-box p {
+    margin-top:15px;
+    font-size: 14px;
 }
