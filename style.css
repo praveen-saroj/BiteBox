@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -364,7 +365,7 @@ gap: 10px;
 }
 
 .combo-section{
-    padding: 40px;
+    padding:40px;
     background: white;
 }
 
@@ -408,3 +409,72 @@ gap: 10px;
 .combo-card:hover{
     transform:translateY(-8px);
 }
+
+.deals-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.deal-card{
+    background: rgb(200, 190, 190);
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.deal-card h3{
+    padding-bottom: 10px;
+}
+
+.deal-card span{
+    display:inline-block;
+    margin-top: 10px;
+    padding: 5PX 10PX;
+    background-color: black;
+    color: white;
+    border-radius:6px;
+}
+
+.deal-card:hover{
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+.red{
+    border-top:5px solid red;
+}
+
+.yellow{
+    border-top:5px solid yellow;
+}
+
+.green{
+    border-top:5px solid green;
+}
+
+.box{
+    background-color: red;
+    width: 200px;
+    height:90px;
+    position:relative;
+    top: 300px;
+    left:100px;
+}
+
+.parent  {
+    background-color: black;
+    height: 200px;
+    width: 400px;
+
+}
+.user{
+    position:relative;
+}
+
+#hidden{
+    position:absolute;
+    top:24px;
+    right:0px;
+}
+

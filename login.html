@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 
     <link rel="icon" type="image/x-icon" href="images/favicon_io/favicon.ico">
 
@@ -31,10 +32,21 @@
      <div class="auth-box">
         <h2>Login to BiteBox</h2>
         <form>
-            <input type="email" placeholder="Enter name" name="uname" required>
-            <input type="password" placeholder="Enter Password" name="password" required>
-            <button type="submit">Login</button>
-            <p>Don't have an account <a href="signup.html"> Signup</a></p>
+            <div class="user">
+                <input type="email" placeholder="Enter name" name="uname" id="email" required>
+                <i class="fa-solid fa-user" id="hidden" onclick="toggle_email();"></i>
+
+            </div>
+            
+            <div class="user">
+                <input type="password" placeholder="Enter Password" name="password"  id="password" required>
+                <i class="fa-solid fa-eye" onclick="toggle_password();" id="hidden"></i>
+            </div>
+            
+            <button type="button" onclick="login()">Login</button>
+            <p><a href="signup.html">Forgot Password</a></p>
+            <p id="error" style="color: red;"></p>
+            <p>Don't have an account <a href="signup.html">Signup</a></p>
         </form>
     </div>
 </section>
